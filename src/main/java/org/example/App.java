@@ -1,6 +1,6 @@
 package org.example;
 
-//import org.example.Game.RaceGame.RaceGameGUI;
+import org.example.Game.RaceGame.RaceGameGUI;
 import org.example.Game.SnakesandLadder.GameGUI;
 
 import java.util.Scanner;
@@ -22,7 +22,7 @@ public class App
             switch (a){
                 case 1: new GameGUI();
                     break;
-                case 2: //new RaceGameGUI();
+                case 2: new RaceGameGUI();
                     break;
                 default: System.out.println("Wrong Choice!!");
             }
